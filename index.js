@@ -8,7 +8,7 @@ const BOT_NAME = 'luke';                         // Nome do bot no Minecraft
 
 // Configuração da API Gratuita do Gemini
 const ai = new GoogleGenAI({
-  apiKey: 'SUA_CHAVE_API_DO_GEMINI'              // Cole sua chave do Google AI Studio
+  apiKey: 'AQ.Ab8RN6IAEOSZUcPn_y8edxxNIbVwWogFvLUbc9awoW5WL6W08Q'              // Cole sua chave do Google AI Studio
 });
 
 const client = bedrock.createClient({
