@@ -2,9 +2,9 @@ const bedrock = require('bedrock-protocol');
 const { GoogleGenAI } = require('@google/genai');
 
 // Configurações do seu servidor Aternos
-const SERVER_IP = 'SEU_IP_DO_ATERNOS.aternos.me'; // Coloque o IP do seu Aternos
-const SERVER_PORT = 12345;                        // Coloque a Porta do seu Aternos
-const BOT_NAME = 'Felix';                         // Nome do bot no Minecraft
+const SERVER_IP = 'Worn.aternos.me'; // Coloque o IP do seu Aternos
+const SERVER_PORT = 43902;                        // Coloque a Porta do seu Aternos
+const BOT_NAME = 'luke';                         // Nome do bot no Minecraft
 
 // Configuração da API Gratuita do Gemini
 const ai = new GoogleGenAI({
